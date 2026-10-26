@@ -2,6 +2,10 @@
 // Copyright (c) 2015  Giulio Camuffo <giuliocamuffo@gmail.com>
 // gamma-wl.c -- Wayland gamma adjustment header
 
+#ifdef HAVE_CONFIG_H
+# include "config.h"
+#endif
+
 #include <limits.h>
 #include <stdbool.h>
 #include <stdio.h>
